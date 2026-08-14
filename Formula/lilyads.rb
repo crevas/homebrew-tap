@@ -1,7 +1,6 @@
 class Lilyads < Formula
   desc "AI-friendly Apple Ads CLI by Lily"
   homepage "https://github.com/crevas/Apple-Ads-CLI"
-  version "0.2.0"
   license "MIT"
 
   on_macos do
