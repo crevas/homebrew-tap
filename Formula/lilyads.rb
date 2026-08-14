@@ -1,26 +1,26 @@
 class Lilyads < Formula
   desc "AI-friendly Apple Ads CLI by Lily"
   homepage "https://github.com/crevas/Apple-Ads-CLI"
-  version "0.1.6"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/crevas/Apple-Ads-CLI/releases/download/v0.1.6/lily_darwin_arm64.tar.gz"
-      sha256 "59e7d34e1efb5f85a079d28affcaf077551a478d0123de16381a911f7d8f6c3e"
+      url "https://github.com/crevas/Apple-Ads-CLI/releases/download/v0.2.0/lily_darwin_arm64.tar.gz"
+      sha256 "ddb1fd58a299f3f8f417e2ff3a130cf041ebf69024f12a5e738f2be01d9ea068"
     else
-      url "https://github.com/crevas/Apple-Ads-CLI/releases/download/v0.1.6/lily_darwin_amd64.tar.gz"
-      sha256 "6df98564121b720d9f6d19cece42efd34297e5f9cf019a48d3b2665b628a00ba"
+      url "https://github.com/crevas/Apple-Ads-CLI/releases/download/v0.2.0/lily_darwin_amd64.tar.gz"
+      sha256 "4cb56d9ba2464f1ee828ad29f764ad26f6ed0b64e58752752c08b6a97fe2f501"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/crevas/Apple-Ads-CLI/releases/download/v0.1.6/lily_linux_arm64.tar.gz"
-      sha256 "7f805494279ab011779f1ef86fa7d37a9c84b555d7ac24095aa86ada7efc7dea"
+      url "https://github.com/crevas/Apple-Ads-CLI/releases/download/v0.2.0/lily_linux_arm64.tar.gz"
+      sha256 "cb53ac6c88b9217c2be81296f4a3b448db3f55151c51c9f805044b80f6ce6fab"
     else
-      url "https://github.com/crevas/Apple-Ads-CLI/releases/download/v0.1.6/lily_linux_amd64.tar.gz"
-      sha256 "a8783e3923aa6e554663d89bfce91a8ba33c5fc427c203e88af307b080f11d7b"
+      url "https://github.com/crevas/Apple-Ads-CLI/releases/download/v0.2.0/lily_linux_amd64.tar.gz"
+      sha256 "c71da4f2c7921c146b9be7ec55df487008d4de9f73991f2760691c3baef461b2"
     end
   end
 
